@@ -24,7 +24,7 @@ function NavBar() {
                 <div className={style.utilityMenu}>
                     <ul>
                         <li className={style.loginLinks}><a className={style.linksWithIcons} href="#login">
-                            <Icon icon="mdi:user-outline" height={24} /> Login</a>
+                            <Icon icon="healthicons:person-outline"  height={24} /> Login</a>
                         </li>
                         <li><a href="#register">Register</a></li>
                         <li><a className={style.linksWithIcons} href="#search">

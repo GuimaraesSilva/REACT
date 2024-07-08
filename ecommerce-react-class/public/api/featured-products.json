@@ -1,0 +1,106 @@
+[
+    {
+        "productImg": "https://example.com/image1.jpg",
+        "name": "Graphic Design",
+        "description": "English Department",
+        "oldPrice": "16.48€",
+        "currentPrice": "6.48€",
+        "colors": [
+            "#23A6F0",
+            "#23856D",
+            "#E77C40",
+            "#252B42"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image2.jpg",
+        "name": "Web Development",
+        "description": "Computer Science Department",
+        "oldPrice": "20.00€",
+        "currentPrice": "10.00€",
+        "colors": [
+            "#F1C40F",
+            "#2ECC71",
+            "#E74C3C",
+            "#8E44AD"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image3.jpg",
+        "name": "Data Analysis",
+        "description": "Mathematics Department",
+        "oldPrice": "25.50€",
+        "currentPrice": "12.75€",
+        "colors": [
+            "#3498DB",
+            "#1ABC9C",
+            "#E67E22",
+            "#34495E"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image4.jpg",
+        "name": "Marketing",
+        "description": "Business Department",
+        "oldPrice": "30.00€",
+        "currentPrice": "15.00€",
+        "colors": [
+            "#E91E63",
+            "#9C27B0",
+            "#FFEB3B",
+            "#3F51B5"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image5.jpg",
+        "name": "Photography",
+        "description": "Arts Department",
+        "oldPrice": "18.99€",
+        "currentPrice": "9.49€",
+        "colors": [
+            "#607D8B",
+            "#795548",
+            "#FF5722",
+            "#FFC107"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image6.jpg",
+        "name": "Cybersecurity",
+        "description": "Information Security Department",
+        "oldPrice": "22.00€",
+        "currentPrice": "11.00€",
+        "colors": [
+            "#009688",
+            "#8BC34A",
+            "#CDDC39",
+            "#FF9800"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image7.jpg",
+        "name": "UI/UX Design",
+        "description": "Design Department",
+        "oldPrice": "19.99€",
+        "currentPrice": "9.99€",
+        "colors": [
+            "#3F51B5",
+            "#FF4081",
+            "#00BCD4",
+            "#9E9E9E"
+        ]
+    },
+    {
+        "productImg": "https://example.com/image8.jpg",
+        "name": "Machine Learning",
+        "description": "Artificial Intelligence Department",
+        "oldPrice": "27.50€",
+        "currentPrice": "13.75€",
+        "colors": [
+            "#673AB7",
+            "#2196F3",
+            "#4CAF50",
+            "#FF5722"
+        ]
+    }
+]
