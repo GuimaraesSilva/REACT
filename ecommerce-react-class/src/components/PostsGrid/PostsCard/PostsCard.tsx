@@ -25,8 +25,8 @@ function PostsCard(props: PostGridType) {
 
     return (
         <div className={styles.wrapper}>
-            <div className={styles.imageWrapper}>
-                <span>New</span>
+                 <div className={styles.imageWrapper}>
+                 {categories.find((category) => category === "New") && <span>New</span>}
                 <img src={postImage} />
             </div>
             <div className={styles.info}>
