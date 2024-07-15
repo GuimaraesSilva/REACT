@@ -1,20 +1,9 @@
+import { Icon } from '@iconify/react/dist/iconify.js'
 import ProductCard from './ProductCard/ProductCard'
+import ProductListCard from './ProductListCard/ProductListCard'
 import styles from './ProductGrid.module.css'
+import { useState } from 'react'
 
-
-// const product = {
-//     "productImg": "/src/assets/products/product-cover-1.png",
-//     "name": "Graphic Design",
-//     "description": "English Department",
-//     "oldPrice": 16.48,
-//     "currentPrice": 6.48,
-//     "colors": [
-//         "#23856D",
-//         "#23A6F0",
-//         "#E77C40",
-//         "#252B42"
-//     ]
-// }
 
 const products = [
     {
@@ -126,24 +115,47 @@ const products = [
 
 function ProductGrid() {
 
-    return (
-        <div className={styles.wrapper}>
-            {
-                products.map((product) => {
-                    return (
-                        <ProductCard
-                            productName={product.name}
-                            image={product.productImg}
-                            description={product.description}
-                            oldPrice={product.oldPrice}
-                            currentPrice={product.currentPrice}
-                            variantColors={product.colors}
-                        />
-                    )
-                })
-            }
+    const [list, setList] = useState(false)
 
-        </div>
+    return (
+        <>
+            <div className={styles.listStyle}>
+                <Icon onClick={() => {
+                    setList(false)
+                }} className={styles.muted} icon="mingcute:grid-fill" height="2.4rem" />
+
+                <Icon onClick={() => {
+                    setList(true) 
+                }} className={styles.muted} icon="mingcute:list-check-line" height="2.4rem" />
+
+            </div>
+            <div className={list ? styles.wrapper_list : styles.wrapper}>
+                {
+                    products.map((product) => {
+
+                        return list ? <ProductListCard
+                        productName={product.name}
+                        image={product.productImg}
+                        description={product.description}
+                        oldPrice={product.oldPrice}
+                        currentPrice={product.currentPrice}
+                        variantColors={product.colors}
+
+                        /> 
+                        : (
+                            <ProductCard
+                                productName={product.name}
+                                image={product.productImg}
+                                description={product.description}
+                                oldPrice={product.oldPrice}
+                                currentPrice={product.currentPrice}
+                                variantColors={product.colors}
+                            />
+                        )
+                    })
+                }
+            </div>
+        </>
     )
 }
 

@@ -1,5 +1,4 @@
 import styles from './ProductCard.module.css'
-import productImg from '../../assets/products/product-cover-1.png'
 
 type ProductCardType = {
     productName: string;
@@ -31,15 +30,11 @@ function ProductCard(props: ProductCardType) {
                 </div>
                 <div className={styles.colors}>
                     {
-                        //Expressoes .map??? 
+                        //Expressões: '.map' 
                         variantColors.map((color) => {
                             return <span style={{ backgroundColor: color }}></span>
                         })
                     }
-
-
-
-
                 </div>
             </div>
         </div>
