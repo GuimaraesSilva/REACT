@@ -1,0 +1,37 @@
+.logoContainer {
+    height: 10rem;
+} 
+
+.linksWrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.mainMenu {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    li {
+        line-height: 2.4rem;
+        font-weight: 500;
+        color: var(--t-grey-menu);
+        text-transform: uppercase;
+    }
+}
+
+.menuFooter {
+    font-size: 1rem;
+}
+
+.copywright {
+    font-size: 1rem;
+    color: var(--t-grey-menu);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}

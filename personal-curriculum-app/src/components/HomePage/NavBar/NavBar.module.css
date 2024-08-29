@@ -1,0 +1,57 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    height: 8rem;
+}
+
+.mainMenu {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 4.5rem;
+    }
+
+    li {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+        color: var(--t-white);
+    }
+
+    li:hover{
+        color: var(--t-yellow);
+    }
+}
+
+
+.navButton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    width: 15rem;
+    height: 4.5rem;
+    font-size: 1.6rem;
+    color: var(--t-white);
+    background-color: var(--bk-menu-button);
+    border-radius: 4rem;
+    border: none;
+}
+
+button:hover{
+    color: var(--bk-primary);
+    font-weight: bold;
+    background-color: var(--t-yellow);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
