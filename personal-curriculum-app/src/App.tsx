@@ -1,12 +1,13 @@
 import "./App.css";
-import NavBar from "./components/HomePage/NavBar/NavBar";
-import About from "./components/HomePage/About/About";
-import Banner from "./components/HomePage/Banner/Banner";
-import Profile from "./components/HomePage/Profile/Profile";
-import Services from "./components/HomePage/Services/Services"
-import Projects from "./components/HomePage/Projects/Projects";
-import Footer from "./components/HomePage/Footer/Footer";
-
+import NavBar from "./components/NavBar/NavBar";
+import About from "./components/About/AboutComponent";
+import Banner from "./components/Banner/Banner";
+import Profile from "./components/Profile/Profile";
+import Services from "./components/Services/Services"
+import Projects from "./components/Projects/Projects";
+import Client from "./components/Clientes/Client";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -25,7 +26,8 @@ function App() {
       <Projects/>
       <Services/>
       <Profile/>
-
+      <Client/>
+      <Contact/>
       <Footer />
     </>
   );

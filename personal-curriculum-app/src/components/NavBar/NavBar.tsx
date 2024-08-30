@@ -1,4 +1,4 @@
-import logo from '../../../assets/Signature.png'
+import logo from '../../assets/Signature.png'
 import style from './NavBar.module.css'
 
 function NavBar() {

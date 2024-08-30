@@ -1,6 +1,6 @@
-import style from './About.module.css';
-import { TfiDirection } from "react-icons/tfi";
-import bioImage from '../../../assets/AVATAR.png';
+import style from '../About/About.module.css';
+import { CiCircleChevRight } from "react-icons/ci";
+import bioImage from '../../assets/FOTO PERFIL.png';
 
 
 
@@ -22,7 +22,7 @@ function About(props:any) {
                 <div className={style.infoButtonContainer}>
     
                 <a className={style.infoButton} href="www.google.com">
-                <TfiDirection /></a>
+                <CiCircleChevRight /></a>
                 </div>
             </div>
         </div>
