@@ -1,0 +1,25 @@
+.bioImageGeneral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bk-container);
+  width: 100%;
+  height: 30rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.103);
+}
+
+.bioImageContainer {
+  position: relative;
+  width: 90%;
+  height: auto;
+}
+
+.bioImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}

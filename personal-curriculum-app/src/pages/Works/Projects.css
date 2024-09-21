@@ -1,0 +1,14 @@
+.row1projects {
+  display: grid;
+  grid-template-columns: 31% 75%;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.row2projects,
+.row3projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}

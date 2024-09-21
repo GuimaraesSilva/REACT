@@ -1,40 +1,40 @@
 @font-face {
-    font-family: 'Bad Script';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/badscript/v16/6NUT8F6PJgbFWQn47_x7pO8kzO1A.woff2) format('woff2');
-    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-  }
+  font-family: "Bad Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/badscript/v16/6NUT8F6PJgbFWQn47_x7pO8kzO1A.woff2)
+    format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
 
 * {
-    font-family: "Bad Script", cursive;
-    box-sizing: border-box;
+  font-family: "Bad Script", cursive;
+  box-sizing: border-box;
 }
 
 :root {
-    --bk-primary: #0F0F0F;
-    --bk-container: #ffffff05;
-    --bk-menu-button: #323232;
-    --t-white: #FFFFFF;
-    --t-grey-menu: #676767;
-    --t-blue: #5B78F6;
-    --t-gray-body: #BCBCBC80;
-    --t-yellow: #e49800;
-}
-  
-body {
-    background-color: #0F0F0F;
-}
-  
-#root {
-    height: 13.12rem;
-    margin: 0rem 20rem 0 20rem;
-    padding: 2rem;
-    text-align: center;
-}
-  
-html {
-    font-size: 16px;
-    font-size: 62.5%;
+  --bk-primary: #0f0f0f;
+  --bk-container: #ffffff05;
+  --bk-menu-button: #323232;
+  --t-white: #ffffff;
+  --t-grey-menu: #676767;
+  --t-blue: #5d78f0e1;
+  --t-gray-body: #bcbcbc80;
 }
 
+body {
+  background-color: #0f0f0f;
+}
+
+#root {
+  width: 80vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html {
+  font-size: 16px;
+  font-size: 62.5%;
+}

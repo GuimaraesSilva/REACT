@@ -1,0 +1,53 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 130px;
+  margin-bottom: 2rem;
+}
+
+.logoContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.linksWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 4rem;
+}
+
+.mainMenu ul {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.mainMenu li {
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: var(--t-grey-menu);
+  text-transform: uppercase;
+}
+
+.menuFooter {
+  font-size: 1rem;
+}
+
+.copywright {
+  font-size: 1rem;
+  color: var(--t-grey-menu);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}

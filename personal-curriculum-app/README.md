@@ -1,71 +1,82 @@
-# Task Manager App
+# Online Portfolio - React + TypeScript
 
-## Como rodar o projeto
+This project is a personal online portfolio built using React and TypeScript. It consists of three main pages: Homepage, About me, and Projects (Github API).
 
-1. Clone o repositório: git clone <url>
+## Table of Contents
 
-2. Navegue até a pasta do projeto: cd personal-curriculum-app
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech_stack)
+- [Getting Started](#getting_started)
+- Folder Structure
 
-3. Instale as dependências: npm install
+### <a name="project_overview"></a> Project Overview
 
-4. Rode a aplicação: npm run dev
+This project showcases a developer's personal information, skills, and projects through three main sections:
 
-5. Acesse a aplicação em: http://localhost:5173
+- Homepage: A brief introduction and background.
+- About me: A list of educational qualifications, certifications, and work experience.
+- Projects: A showcase of projects, including links and descriptions.
+  The project is built using React and TypeScript to ensure type safety and scalability.
 
+### <a name="features"></a> Features
 
-## Funcionalidades
-- Navegação entre páginas (Home, Tasks, About)
-- Lista de tarefas obtida de uma API falsa
-- Uso de Hooks, componentes simples e compostos com TypeScript
+- Reusable Components: Modular and reusable components for easy maintenance.
+- TypeScript Support: Type-safe code for better developer experience and bug prevention.
+- Basic Routing: Implements navigation between the three main pages.
+- Styled Components: Uses CSS Modules for scoped styling.
 
+### <a name="tech_stack"></a> Tech Stack
 
-<!-- # React + TypeScript + Vite
+- Frontend: React, TypeScript
+- Routing: React Router
+- Styling: CSS Modules
+- Tooling: Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### <a name="getting_started"></a> Getting Started
 
-Currently, two official plugins are available:
+Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ensure you have the following installed:
 
-## Expanding the ESLint configuration
+  Node.js (v14+)npm or yarn (npm 6+ or yarn 1.22+)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Installation
 
-- Configure the top-level `parserOptions` property like this:
+1.  Clone the repository:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+git clone https://github.com/GuimaraesSilva/REACT
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-``` -->
+2. Navigate into the project directory:
+
+```
+cd REACT/personal-curriculum-app
+
+```
+
+3. Install the project dependencies:
+
+```
+
+npm install
+
+```
+
+<br>
+<br>
+
+Running the Project
+
+To start the development server:
+
+```
+
+npm run dev
+
+```
+This will start the app on http://localhost:5173.
+```
