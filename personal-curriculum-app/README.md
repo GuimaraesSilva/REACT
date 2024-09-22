@@ -46,7 +46,6 @@ Installation
 1.  Clone the repository:
 
 ```
-
 git clone https://github.com/GuimaraesSilva/REACT
 
 ```
@@ -61,8 +60,72 @@ cd REACT/personal-curriculum-app
 3. Install the project dependencies:
 
 ```
+npm install react 
 
-npm install
+```
+npm install react-dom 
+
+```
+npm install @react-icons/all-files
+
+```
+
+npm install react-dom 
+
+```
+
+npm install react-icons 
+
+```
+
+npm install react-router-dom
+
+```
+npm install --save-dev @eslint/js 
+
+```
+
+npm install --save-dev @types/react 
+
+```
+
+npm install --save-dev @types/react-dom 
+
+```
+
+npm install --save-dev @vitejs/plugin-react 
+
+```
+
+npm install --save-dev eslint 
+
+```
+
+npm install --save-dev eslint-plugin-react-hooks 
+
+```
+
+npm install --save-dev eslint-plugin-react-refresh
+
+```
+
+npm install --save-dev globals 
+
+```
+
+npm install --save-dev prettier 
+
+```
+
+npm install --save-dev typescript 
+
+```
+
+npm install --save-dev typescript-eslint 
+
+```
+
+npm install --save-dev vite
 
 ```
 
@@ -74,7 +137,6 @@ Running the Project
 To start the development server:
 
 ```
-
 npm run dev
 
 ```

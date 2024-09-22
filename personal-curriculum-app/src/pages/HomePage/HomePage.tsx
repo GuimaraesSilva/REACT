@@ -38,7 +38,7 @@ function Homepage() {
                   <SimpleContainer
                     img={projectsImage}
                     subtitle="Github"
-                    title="Fullstack  Web Developtment"
+                    title="Web Developtment"
                   />
                 </div>
               </div>

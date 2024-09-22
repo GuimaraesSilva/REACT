@@ -72,7 +72,7 @@ function About() {
         </div>
         <div className="row3about">
           <div className="row3col1about">
-            <SocialComponent />
+            <SocialComponent subtitle= "Stay with me" title="Profiles"/>
           </div>
           <div className="row3col2about">
             <ContactComponent />

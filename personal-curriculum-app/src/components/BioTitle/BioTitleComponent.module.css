@@ -1,6 +1,7 @@
 .titleContainer {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 15px;
   padding-bottom: 2rem;
 }
